@@ -59,7 +59,6 @@ public class CharacterArray {
         System.out.println();
         
         System.out.println("Both arrays are equal: " + areEqual);
-        
-        scanner.close();
+         
     }
 }
