@@ -1,0 +1,9 @@
+public class MultiplicationTableLevel1 {
+    public static void main(String[] args) {
+        int number = 5;
+        
+        for (int i = 6; i <= 9; i++) {
+            System.out.println(number + " * " + i + " = " + (number * i));
+        }
+    }
+}
