@@ -9,7 +9,6 @@ class Patient {
         this.name = name;
     }
 }
-
 public class HospitalTriage {
     private PriorityQueue<Patient> triageQueue =
             new PriorityQueue<>((a, b) -> a.priority - b.priority);
@@ -17,7 +16,6 @@ public class HospitalTriage {
     public void admitPatient(Patient p) {
         triageQueue.offer(p);
     }
-
     public Patient callNextPatient() {
         return triageQueue.poll();
     }
